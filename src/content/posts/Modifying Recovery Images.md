@@ -119,6 +119,17 @@ rm -rf "$ROOT"
 
 And there you have it, your own modified ChromeOS Recovery Image!
 
+## But how do I use it?
+Simple!
+
+1. Take the `.bin` file and flash it to a USB using a tool like `dd`, the ChromeOS Recovery Utility, etc.
+2. Boot the USB like you would boot sh1mmer
+    - `esc + refresh + power`
+    - `ctrl + d`
+    - `enter`
+    - `esc + refresh + power`
+    - Insert USB
+
 ## Credits
 - [Recomod](https://github.com/mercuryworkshop/recmod)
     - [ssd_util](https://github.com/MercuryWorkshop/RecoMod/blob/main/lib/ssd_util.sh)
