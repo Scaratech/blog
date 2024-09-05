@@ -1,7 +1,7 @@
 # Hi, I'm Scaratek!
 I'm a 14 year-old developer that mainly works with Javascript.\
 I mainly do web development but I'm also interested in Chromebooks.\
-I know Python 3, Bash, JS & TS, and Java (*kinda*).
+I know Python 3, Bash, JS (& TS), C (*kinda*), and Java (*kinda*).
 
 I also like to host things!\
 Currently I don't really have anything hosted buttt I'm hoping that will change soon!
