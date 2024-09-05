@@ -13,7 +13,7 @@ If you are reading this you are probably familiar with "Recovery Images" for Chr
 They allow you to boot a USB and install a new fresh version of ChromeOS if you manage to break something.
 
 ## How do they work?
-Before we talk about modifying them I wanted to mention how they work.\
+Before we talk about modifying them I wanted to mention how they work.
 
 ### Partitions
 There are 12 partitions on the Recovery Image. Only three are useful.
