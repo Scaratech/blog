@@ -5,7 +5,7 @@ description: 'Explaining TompHTTP by implementing the Bare Server specification'
 image: ''
 tags: ['TompHTTP']
 category: 'Programming'
-draft: false 
+draft: true 
 language: 'English'
 ---
 
