@@ -1,6 +1,6 @@
 ---
 title: 'Explaining TompHTTP'
-published: 2024-09-04-06
+published: 2024-09-06
 description: 'Explaining TompHTTP by implementing the Bare Server specification'
 image: ''
 tags: ['TompHTTP']
