@@ -5,7 +5,7 @@ description: 'Explaining TompHTTP by implementing the Bare Server specification'
 image: ''
 tags: ['TompHTTP']
 category: 'Programming'
-draft: false
+draft: true
 language: 'English'
 ---
 
@@ -232,4 +232,23 @@ app.get('/', (req, res) => {
 })
 ```
 
-okay I ran out of time and have to leave school I'll finish writing this once I do my like 7 missing assignments :3
+Now create three files. `v1.js`, `v2.js`, `v3.js`\n
+Inside of each of these files paste in:
+```js
+import express from 'express';
+export const router = express.Router();
+```
+
+Then inside `server.js` at the top paste in:
+```js
+import { router as v1Router } from './v1.js';
+import { router as v2Router } from './v2.js';
+import { router as v3Router } from './v3.js';
+```
+And under `app.get('/')` paste in:
+```js
+app.use('/v1', v1Router);
+app.use('/v2', v2Router);
+app.use('/v3', v3Router);
+```
+This will setup all the routes for all the specification versions.
