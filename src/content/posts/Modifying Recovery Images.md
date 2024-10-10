@@ -5,7 +5,7 @@ description: 'How to modify ChromeOS Recovery Images'
 image: ''
 tags: ['ChromeOS']
 category: 'Programming'
-draft: false 
+draft: true 
 language: 'English'
 ---
 
